@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-03T03:16:17.856Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2259900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.screenShot()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2441600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.waitTime()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To verify the username and password with given credentials for Amazon",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-given-application;to-verify-the-username-and-password-with-given-credentials-for-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 365200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.clearCookies()"
+            }
+          },
+          {
+            "result": {
+              "duration": 284400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.ScreenShot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will enter the given URL.",
+            "match": {
+              "location": "StepDefinition1.userWillEnterTheGivenURL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5598500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter username and password in the respected field.",
+            "match": {
+              "location": "StepDefinition1.userEnterUsernameAndPasswordInTheRespectedField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1968400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User will click the login button.",
+            "match": {
+              "location": "StepDefinition1.userWillClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5121300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User verifies the login functionnality.",
+            "match": {
+              "location": "StepDefinition1.userVerifiesTheLoginFunctionnality()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of given application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-given-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login2.feature",
+    "tags": []
+  }
+]
